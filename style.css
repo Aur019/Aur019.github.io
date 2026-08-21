@@ -21,3 +21,47 @@ main {
   min-hight: calc(100vh - 160px);
   gap: clamp(32px, 5vw, 80px);
 }
+
+.sidebar {
+  witdh: 100%;
+}
+
+.content {
+  display: felx;
+  flex-direction: colunm;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+h2 {
+  margin: 0;
+  font-size: clamp(3rem, 5vw, 9rem);
+  line-height: 0.9;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  text-transform: 0.4em;
+  color: #FFFFFF;
+}
+
+.content> p {
+  margin: 0;
+  color: #9DABB2;
+  font-size: 1.16rem;
+  text-transform:uppercase;
+  letter-spacing: 0.12em;
+  line-height: 2.5rem;
+  font-weight: 850;
+}
+
+#interests {
+  margin-top: 32px;
+  width: 100%;
+}
+
+#interests h3 {
+ margin:0px 0px 12px;
+ font-size: 1.5rem;
+ font-weight: 700; 
+ letter-spacing: 0.5rem;
+ color: #FFFFFF;
+}
