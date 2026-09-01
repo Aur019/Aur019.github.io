@@ -177,6 +177,9 @@ nav h1 {
   display: flex;
   justify-content: center; 
   line-height: 1rem;
+  font-size: 42px;
+  letter-spacing: .10em;
+  font-weight: 100px;
 }
 
 
@@ -201,12 +204,12 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #444;
+  color: #ffffff;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #11313d;
+  border: 1px solid #FFFFFF;
   border-radius: 12px;
   transition:
     background 0.25s ease,
@@ -215,13 +218,12 @@ nav h1 {
 }
 
 #portfolio a:hover {
-  background: #000;
-  color: #fff;
+  background: #FFFFFF;
+  color: #143c4c;
   transform: translateX(4px);
 }
 
 #portfolio a::after {
-  content: "->";
   font-size: 0.85rem;
   opacity: 0.4;
   transition: opacity 0.25s ease;
